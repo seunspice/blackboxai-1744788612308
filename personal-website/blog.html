@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog - Personal Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">My Personal Site</a>
+      <nav class="space-x-6 text-gray-700">
+        <a href="index.html" class="hover:text-indigo-600 transition">Home</a>
+        <a href="blog.html" class="hover:text-indigo-600 transition font-semibold">Blog</a>
+        <a href="index.html#contact" class="hover:text-indigo-600 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-16 max-w-4xl">
+    <h1 class="text-4xl font-extrabold mb-12 text-center">Blog</h1>
+    <section class="space-y-8">
+      <article class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <a href="posts/post1.html" class="text-2xl font-semibold text-indigo-600 hover:underline">My First Blog Post</a>
+        <p class="mt-2 text-gray-700">An introduction to my personal blog where I share my thoughts on web development and programming.</p>
+        <time datetime="2024-06-01" class="block mt-3 text-sm text-gray-500">June 1, 2024</time>
+      </article>
+      <article class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <a href="posts/post2.html" class="text-2xl font-semibold text-indigo-600 hover:underline">Understanding Tailwind CSS</a>
+        <p class="mt-2 text-gray-700">A deep dive into Tailwind CSS and how it can improve your frontend development workflow.</p>
+        <time datetime="2024-06-10" class="block mt-3 text-sm text-gray-500">June 10, 2024</time>
+      </article>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-24 py-8">
+    <div class="container mx-auto px-6 text-center text-gray-600">
+      <p>Contact me on social media:</p>
+      <div class="mt-4 space-x-6 text-xl">
+        <a href="#" aria-label="Twitter" class="hover:text-indigo-600 transition"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn" class="hover:text-indigo-600 transition"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub" class="hover:text-indigo-600 transition"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="mt-6 text-sm">&copy; 2024 [Your Name]. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
